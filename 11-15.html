@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
 function redirectToWebsite() {
   var currentTime = new Date();
   var hours = currentTime.getHours();
@@ -11,6 +12,7 @@ function redirectToWebsite() {
 }
 
 setInterval(redirectToWebsite, 1000 * 60 * 60); // 매 시간마다 함수 호출
+       </script>
   <style>
     html, body {
       height: 100%;
