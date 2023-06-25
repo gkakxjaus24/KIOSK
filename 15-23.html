@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-      <script>
-function redirectToWebsite() {
-  var currentTime = new Date();
-  var hours = currentTime.getHours();
-  
-  if (hours === 5 || hours === 11 || hours === 15 || hours === 23) {
-    window.location.href = "https://gkakxjaus24.github.io/KIOSK/15-23.html"; // 대상 웹사이트 주소 입력
-  }
-}
-
-setInterval(redirectToWebsite, 1000 * 60 * 3); // 매 시간마다 함수 호출
-       </script>
   <style>
 
     html, body {
@@ -94,6 +81,19 @@ setInterval(redirectToWebsite, 1000 * 60 * 3); // 매 시간마다 함수 호출
     
   </style>
 </head>
+      
+      <script>
+function redirectToWebsite() {
+  var currentTime = new Date();
+  var hours = currentTime.getHours();
+  
+  if (hours === 5 || hours === 11 || hours === 15 || hours === 23) {
+    window.location.href = "https://gkakxjaus24.github.io/KIOSK/15-23.html"; // 대상 웹사이트 주소 입력
+  }
+}
+
+setInterval(redirectToWebsite, 1000 * 60 * 3); // 매 시간마다 함수 호출
+       </script>
 <body>
   <div class="flex-container">
     <div class="flex-item">
